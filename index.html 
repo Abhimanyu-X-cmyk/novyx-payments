@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVYX Pay</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #080b18;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 24px;
+    }
+    main { max-width: 520px; }
+    h1 { font-size: 42px; margin-bottom: 8px; }
+    h1 span { color: #00e5ff; }
+    p { color: #aab3ca; line-height: 1.7; }
+    .status {
+      display: inline-block;
+      border: 1px solid #263b56;
+      border-radius: 20px;
+      padding: 8px 14px;
+      color: #00e5ff;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>NOVYX <span>Pay</span></h1>
+    <p>A new way to experience digital payments.</p>
+    <div class="status">Development preview</div>
+    <p>Secure payment features are not yet enabled.</p>
+  </main>
+</body>
+</html>
